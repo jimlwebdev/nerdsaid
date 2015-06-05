@@ -1,4 +1,4 @@
 <section ng-controller="sectionTag">
 	<p><b>{{value}}</b></p>
-	<p ng-controller="pTag">{{value}}</p>
+	<p ng-controller="pTag">{{value | sharedFilter}}</p>
 </section>
